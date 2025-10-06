@@ -1,6 +1,8 @@
 # AI Architecture Diagram Tool
 
 Transform ideas into production-ready UML diagrams, ER schemas, and system architectures with AI.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6f7e4840-cde9-4402-bf95-b1aa5c4db0e7" />
+
 
 ## Features
 
