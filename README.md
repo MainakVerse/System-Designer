@@ -58,6 +58,7 @@ npm start
 
 ## Project Structure
 
+```
 src/
  ├── components/
  │   ├── Hero.tsx
@@ -78,7 +79,7 @@ src/
  │   └── redis.ts
  └── public/
      └── assets/
-
+```
 
 ## Color Theme
 
