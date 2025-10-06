@@ -58,28 +58,27 @@ npm start
 
 ## Project Structure
 
-\`\`\`
-├── app/
-│   ├── layout.tsx          # Root layout with fonts and metadata
-│   ├── page.tsx            # Home page with all sections
-│   └── globals.css         # Global styles and theme tokens
-├── components/
-│   ├── hero.tsx            # Hero section
-│   ├── about.tsx           # About/Story section
-│   ├── how-it-works.tsx    # How It Works section
-│   ├── features.tsx        # Features grid
-│   ├── testimonials.tsx    # Customer testimonials
-│   ├── faq.tsx             # FAQ accordion
-│   ├── cta.tsx             # Call-to-action section
-│   ├── footer.tsx          # Footer with links
-│   └── ui/                 # shadcn/ui components
-├── lib/
-│   └── utils.ts            # Utility functions (cn, etc.)
-├── hooks/
-│   ├── use-mobile.tsx      # Mobile detection hook
-│   └── use-toast.ts        # Toast notifications hook
-└── public/                 # Static assets and images
-\`\`\`
+src/
+ ├── components/
+ │   ├── Hero.tsx
+ │   ├── About.tsx
+ │   ├── HowItWorks.tsx
+ │   ├── Features.tsx
+ │   ├── Testimonials.tsx
+ │   ├── FAQ.tsx
+ │   ├── CTA.tsx
+ │   └── Footer.tsx
+ ├── pages/
+ │   ├── index.tsx
+ │   └── api/
+ │       └── generate.ts
+ ├── lib/
+ │   ├── gemini.ts
+ │   ├── vector-db.ts
+ │   └── redis.ts
+ └── public/
+     └── assets/
+
 
 ## Color Theme
 
